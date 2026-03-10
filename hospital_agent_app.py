@@ -13,7 +13,6 @@ import difflib
 import random
 import string
 from ai_engine import call_medibot
-from google import genai
 from datetime import datetime, timedelta
 from twilio.rest import Client
 
@@ -877,4 +876,5 @@ with tab_logs:
                 <p style='color:#e8eaf0; font-size:14px; margin: 6px 0;'>"{log['query']}"</p>
                 <p style='color:#8892b0; font-size:12px;'>Reason: {log['reason']}</p>
             </div>
+
             """, unsafe_allow_html=True)
