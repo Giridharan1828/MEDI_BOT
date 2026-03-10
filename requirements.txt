@@ -1,3 +1,4 @@
 streamlit
 groq
 twilio
+google-genai
