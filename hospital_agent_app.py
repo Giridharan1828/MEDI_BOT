@@ -404,8 +404,7 @@ Today is {datetime.now().strftime('%A, %d %B %Y')}.
 # ──────────────────────────────────────────────────────────────────────────────
 from groq import Groq
 
-client = client = Groq(api_key=st.secrets["GROQ_API_KEY"])
-
+client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 def call_medibot(messages):
 
     response = client.chat.completions.create(
@@ -878,3 +877,4 @@ with tab_logs:
             </div>
 
             """, unsafe_allow_html=True)
+
