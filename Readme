@@ -1,0 +1,30 @@
+# 🏥 MediBot — Hospital Information Agent
+**Developed for GlitchCon 2.0 | Team BACKPROPAGANDA **
+
+MediBot is an intelligent, 24/7 hospital assistant designed to bridge the gap between patients and hospital services. It automates information retrieval, appointment scheduling, and patient notifications.
+
+## 🚀 Key Features
+- **AI-Powered Consultations:** Uses Llama 3.1 (via Groq) to provide instant answers about doctors, departments, and hospital policies.
+- **Automated Bookings:** Secure appointment scheduling that requests patient details and confirms via SMS/WhatsApp.
+- **Instant Notifications:** Integrated with **Twilio** to send real-time "Prep-Kits" and location links to patients.
+- **Insurance Verification:** Cross-references patient insurance providers with hospital-covered procedures.
+- **Secure Payment Gateway:** Generates dynamic UPI QR codes for advance fee payments.
+- **Administrative Tools:** Built-in dashboard for tracking callback tickets and logging unanswered queries.
+
+## 🛠️ Tech Stack
+- **Framework:** Streamlit (Python)
+- **LLM Engine:** Groq (Llama-3.1-8b-instant)
+- **Messaging:** Twilio API (SMS & WhatsApp Business API)
+- **Data Management:** JSON-based Knowledge Graph
+- **Security:** Streamlit Secrets Management
+
+## 📂 Project Structure
+- `hospital_agent_app.py`: The main application logic and UI.
+- `requirements.txt`: List of necessary Python libraries.
+- `.gitignore`: Ensures sensitive API keys are not leaked to GitHub.
+- `README.md`: Project documentation.
+
+## ⚙️ Setup & Installation
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repository-url>
